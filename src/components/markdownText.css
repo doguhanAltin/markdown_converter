@@ -1,0 +1,19 @@
+
+.markdown {
+  height: 90%;
+  background-color: aqua;
+  text-align: start;
+  border-style: solid;
+  border-width: 2px;
+  height: 1004px;
+  width: 50%;
+  word-break: break-word;
+  font-size: medium;
+  font-weight: normal;
+  padding-left:5px ;
+  padding-top: 4px;
+  box-sizing: border-box;
+  overflow: auto;
+  letter-spacing: 0.5px;
+
+}

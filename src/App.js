@@ -1,45 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
-const markdown = `Heading
-=======
 
-Sub-heading
------------
+import TextForm from './components/TextForm';
+import MarkdownText from './components/MarkdownText';
+import HelpButton from './components/HelpButton';
 
-### Another deeper heading
-
-Paragraphs are separated
-by a blank line.
-
-Leave 2 spaces at the end of a line to do a
-line break
-
-Text attributes *italic*, **bold**,
-\`monospace\`, ~~strikethrough~~ .
-
-Shopping list:
-
-  * apples
-  * oranges
-  * pears
-
-Numbered list:
-
-  1. apples
-  2. oranges
-  3. pears
-
-The rain---not the reign---in
-Spain.
-
- *[Herman Fassett](https://freecodecamp.com/hermanfassett)*`
 
 function App() {
   return (
     <div className="App">
- <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />,
+      <h1>Text to Markdown</h1>
+<div style={{display:"flex"}}>
+<TextForm />
+ <MarkdownText />
+</div>
     </div>
   );
 }

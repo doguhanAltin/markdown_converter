@@ -1,0 +1,23 @@
+.textDiv {
+    border-width: 2px;
+    border-style: solid;
+    height: 1000px;
+    width: 50%;
+}
+.textInput {
+    border: none;
+    height: 800px;
+    padding-right: 10px;
+    width: 100%;
+    padding: 0px;
+    line-break: auto;
+    word-break: break-word; 
+    resize: none;
+    padding-left:5px ;
+    box-sizing: border-box;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    outline:none;
+
+}
